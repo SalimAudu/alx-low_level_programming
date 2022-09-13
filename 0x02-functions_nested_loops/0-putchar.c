@@ -1,4 +1,5 @@
-#include "Salim.h"
+#include <stdio.>
+#include <main.h>
 /**
  * main - Prints Salim
  *
