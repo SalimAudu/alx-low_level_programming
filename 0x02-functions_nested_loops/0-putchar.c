@@ -1,4 +1,4 @@
-#include"main.h"
+#include"0-putchar.h"
 /**
  * main - Prints Holberto
  *
@@ -9,5 +9,6 @@ int main(void)
 {
 	_putchar('H');
 	_putchar('o');
+	_putchar('\n');
 	return (0);
 }
