@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * main - function prints text as output
+ * main -Prints school
  *
  * Return:return 0
  */
