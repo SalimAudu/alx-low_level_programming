@@ -10,7 +10,7 @@ int main (void)
 	int letter;
 	for (letter ='a'; letter <= 'z'; letter++)
 	{
-		letter = tolwer(letter);
+		letter = tolower(letter);
 		putchar(letter);
 		if (letter == 'z')
 		{
