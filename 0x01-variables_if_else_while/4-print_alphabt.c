@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stype.h>
+#include <ctype.h>
 /**
  * main - program to print alhabet letters except q and e
  *
