@@ -17,7 +17,7 @@ int main(void)
 			digit = 'a';
 			for (; digit <= 'f'; digit++)
 			{
-				putchar(char);
+				putchar(digit);
 			}
 			break;
 		}
