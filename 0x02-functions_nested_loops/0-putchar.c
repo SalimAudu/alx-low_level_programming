@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - function prints text as output
+ * main - function prints text 
  *
  * Return:return 0
  */
 int main(void)
 {
-	char [8] = "_putchar";
+	char name[10] = "_putchar";
 
 	int i;
 
-	for (i = 0; i < 7; i++)
+	for (i = 0; 1 <=8; i++)
 	{
 		_putchar(name[i]);
 	}
-	_putchar(6);
+	_putchar(10);
 	return(0);
-	;
 }
+
