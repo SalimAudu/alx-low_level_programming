@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-	char school [8] = "_putchar";
+	char school [6] = "_putchar";
 
 	int i;
 
-	for (i = 0; i <= 8; i++)
+	for (i = 0; i <= 6; i++)
 	{
 		_putchar (school[i]);
 	}
-	_putchar('\n');
+	_putchar(6);
 	return (0);
-i}
+	
+}
