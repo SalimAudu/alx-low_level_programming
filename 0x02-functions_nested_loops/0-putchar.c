@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- * main -Prints school
+ * main - Prints school
  *
  * Return:return 0
  */
 int main(void)
 {
-	char school [10] = "_putchar";
+	char school [6] = "_putchar";
 
 	int i;
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i <= 6; i++)
 	{
 		_putchar (school[i]);
 	}
-	_putchar (10);
+	_putchar(6);
 	return (0);
 }
