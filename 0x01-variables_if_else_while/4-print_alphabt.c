@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * main - program to print alhabet letters except q and e
+ * main - Program to print alphabet letters except q and e followed by new line
  *
  * Return: return 0
  */
@@ -11,7 +11,7 @@ int main(void)
 
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (letter == 'g' || letter == 'e')
+		if (letter == 'q' || letter == 'e')
 		{
 			continue;
 		}
