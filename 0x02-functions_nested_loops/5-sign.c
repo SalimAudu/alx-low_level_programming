@@ -4,14 +4,14 @@
  *
  * Return: 0 or 1
  */
-int print_scrpit(int s)
+int print_scrpit(int n)
 {
-	for (s == 0)
+	for (n == 0)
 	{
 		_putchar('0');
 		return (0);
 	}
-		else if (s > 0)
+		else if (n > 0)
 		{
 			_putchar('+');
 			return (1);
