@@ -6,7 +6,14 @@
  */
 int _isupper(int c)
 {
-	if ((c >= 'A') && (c <= 'Z'))
-		return (1);
-		return (0);
+	char c;
+	
+	c = 'A';
+	_ispper(c);
+
+	c = 'a';
+	_ispper(c);
+
+	return (1);
+	return (0);
 }
