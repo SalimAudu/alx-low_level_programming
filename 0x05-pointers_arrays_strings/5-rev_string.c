@@ -6,7 +6,7 @@
 void rev_string(char *s)
 {
 	int i =0, length;
-	lenght = _strlen(s_=) - 1;
+	length = _strlen(s_=) - 1;
 	while (lenght > i)
 	{
 		swap_char(s + length, s + i);
