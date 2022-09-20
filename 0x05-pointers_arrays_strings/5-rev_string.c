@@ -5,23 +5,21 @@
  */
 void rev_string(char *s)
 {
-	char *t = s;
-	char n[1000];
-	short c = 0;
+	int i = 0, j, right;
 
-	while (*s != '\0')
+	while (s[i])
+		i++;
+	j = i / 2;
+	right = 0;
+
+	while (right != j)
 	{
-		n[c] = *s;
-		s++;
-		c++;
-	}
-	c = 0;
+		char temp s[right];
+		int left = i - right - 1;
 
-	while (s > t)
-	{
-		s--;
-		*s = n[c];
-		c++;
-	}
+		s[right] = s[left];
+		s[left] = temp;
 
+		right++;
+	}
 }
